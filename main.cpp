@@ -2,19 +2,14 @@
 
 using namespace std;
 
-int mult(int a, int b){
+int add(int a, int b){
 	int r;
-	r = a * b;
-	return r;
-} 
-
+	r = a + b;
+	return r; 
+}
 
 int main(){
-
-	int z, i;
-	z = mult(4, 6);
-	i = mult(5, 13);
-	cout<<"The result are "<<z<<" "<<i;
-	return 0;
-
-}
+	int z;
+	z = add(5,6);
+	cout<<"The reasult is "<<z;
+} 
