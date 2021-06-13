@@ -12,4 +12,5 @@ int main(){
 	int z;
 	z = mult(4, 6);
 	cout<<"The result is "<<z;
+	return 0;
 }
