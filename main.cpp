@@ -8,9 +8,11 @@ int mult(int a, int b){
 	return r;
 } 
 
+
 int main(){
-	int z;
+	int z, i;
 	z = mult(4, 6);
-	cout<<"The result is "<<z;
+	i = mult(5, 13)
+	cout<<"The result are "<<z<<" "<<i;
 	return 0;
 }
