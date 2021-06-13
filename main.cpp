@@ -11,6 +11,6 @@ int add(int a, int b){
 int main(){
 	int z;
 	z = add(5,6);
-	cout<<"The reasult is "<<z;
+	cout<<"The result is "<<z;
 	return 0;
 }
